@@ -1,0 +1,23 @@
+:root {
+  /* Cores inspiradas no logo CCB — navy institucional */
+  --primary: #0c3d5c;
+  --primary-dark: #062a42;
+  --primary-light: #1a5a82;
+  --secondary: #3d5a73;
+  --accent: #2b6cb0;
+
+  --background: #eef2f6;
+  --surface: #ffffff;
+  --text: #1a2836;
+  --text-muted: #5a6b7d;
+  --border: #d4dde6;
+
+  --sidebar-width: 280px;
+  --sidebar-collapsed-width: 72px;
+  --header-height: 64px;
+  --radius: 10px;
+  --shadow-sm: 0 1px 3px rgba(12, 61, 92, 0.08);
+  --shadow-md: 0 4px 14px rgba(12, 61, 92, 0.1);
+  --transition: 0.22s ease;
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+}

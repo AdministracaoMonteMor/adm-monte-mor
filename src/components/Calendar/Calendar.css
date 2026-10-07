@@ -1,0 +1,217 @@
+.calendar-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.calendar-view-tabs {
+  display: flex;
+  gap: 0.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.25rem;
+}
+
+.calendar-view-tabs button {
+  border: none;
+  background: transparent;
+  padding: 0.45rem 0.85rem;
+  border-radius: calc(var(--radius) - 4px);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.calendar-view-tabs button.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.calendar-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.calendar-nav button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius);
+  color: var(--primary);
+}
+
+.calendar-nav button:hover {
+  background: var(--background);
+}
+
+.calendar-period-label {
+  font-weight: 700;
+  color: var(--primary-dark);
+  min-width: 160px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.calendar-month {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background: rgba(12, 61, 92, 0.06);
+  border-bottom: 1px solid var(--border);
+}
+
+.calendar-weekdays span {
+  padding: 0.65rem 0.25rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day {
+  min-height: 88px;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0.35rem;
+  background: var(--surface);
+}
+
+.calendar-day:nth-child(7n) {
+  border-right: none;
+}
+
+.calendar-day.other-month {
+  background: var(--background);
+  opacity: 0.65;
+}
+
+.calendar-day-number {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.calendar-day.today .calendar-day-number {
+  color: #fff;
+  background: var(--primary);
+  width: 1.6rem;
+  height: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.calendar-event-chip {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: rgba(12, 61, 92, 0.1);
+  color: var(--primary-dark);
+  font-size: 0.68rem;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.calendar-event-chip:hover {
+  background: rgba(12, 61, 92, 0.18);
+}
+
+.calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+.calendar-week-day {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-height: 140px;
+  padding: 0.5rem;
+}
+
+.calendar-week-day-header {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+  text-transform: capitalize;
+}
+
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.calendar-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary);
+}
+
+.calendar-list-item-main h4 {
+  margin: 0 0 0.35rem;
+  color: var(--primary-dark);
+}
+
+.calendar-list-item-meta {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 700px) {
+  .calendar-day {
+    min-height: 64px;
+  }
+
+  .calendar-event-chip {
+    display: none;
+  }
+
+  .calendar-day.has-events .calendar-day-number::after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+}

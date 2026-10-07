@@ -1,0 +1,17 @@
+.home-hero {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.home-section {
+  margin-bottom: 2.5rem;
+}
+
+.home-section-footer {
+  margin-top: 1.25rem;
+}
