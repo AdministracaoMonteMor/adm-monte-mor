@@ -1,10 +1,9 @@
 /**
  * Setores da Administração — contatos a cadastrar posteriormente.
  */
-const contact = (name, phone = null, email = null) => ({
+const contact = (name, email = null) => ({
   name,
-  phone: phone ?? "[CADASTRAR]",
-  email: email ?? "[sp.montemor.gestores@cpq.congregacao.org.br]",
+  email: email ?? "sp.montemor.gestores@cpq.congregacao.org.br",
 });
 
 export const sectors = [
