@@ -3,7 +3,7 @@
  */
 const contact = (name, phone = null, email = null) => ({
   name,
-  phone: phone ?? "[CADASTRAR]",
+  phone: phone ?? "[19 99923-5742]",
   email: email ?? "[CADASTRAR]",
 });
 
