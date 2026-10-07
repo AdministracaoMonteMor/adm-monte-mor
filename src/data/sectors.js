@@ -9,8 +9,8 @@ export const sectors = [
     name: "Presidência",
     icon: "👔",
     responsibles: [contact("Irmão Rafael"), contact("Irmão Márcio")],
-      phone: phone ?? "[19 99923-5742]",
-      email: email ?? "[CADASTRAR]",
+    phone: "[19 99923-5742]",
+    email: "[CADASTRAR]",
   },
   {
     id: "secretaria",
