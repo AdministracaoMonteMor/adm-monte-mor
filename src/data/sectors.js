@@ -1,11 +1,7 @@
 /**
  * Setores da Administração — contatos a cadastrar posteriormente.
  */
-const contact = (name, phone = null, email = null) => ({
-  name,
-  phone: phone ?? "[19 99923-5742]",
-  email: email ?? "[CADASTRAR]",
-});
+
 
 export const sectors = [
   {
@@ -13,6 +9,8 @@ export const sectors = [
     name: "Presidência",
     icon: "👔",
     responsibles: [contact("Irmão Rafael"), contact("Irmão Márcio")],
+      phone: phone ?? "[19 99923-5742]",
+      email: email ?? "[CADASTRAR]",
   },
   {
     id: "secretaria",
