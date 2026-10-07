@@ -18,7 +18,6 @@ export default function SectorCard({ sector }) {
         sector.responsibles.map((person) => (
           <div key={person.name} className="sector-responsible">
             <div className="sector-responsible-name">{person.name}</div>
-            <p className="sector-responsible-contact">Telefone: {person.phone}</p>
             <p className="sector-responsible-contact">E-mail: {person.email}</p>
           </div>
         ))
