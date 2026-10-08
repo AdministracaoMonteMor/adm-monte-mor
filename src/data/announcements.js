@@ -61,6 +61,7 @@ export const announcementCategories = [
   "Secretaria",
   "Eventos",
   "Avisos",
+  "Ministerio",
 ];
 
 export function getLatestAnnouncements(limit = 5) {
