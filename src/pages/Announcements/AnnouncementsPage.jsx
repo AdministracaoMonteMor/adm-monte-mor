@@ -29,7 +29,7 @@ export default function AnnouncementsPage() {
     <div className="announcements-page">
       <h1 className="page-title">Comunicados</h1>
       <p className="page-subtitle">
-        Comunicados oficiais da Administração de Monte Mor.
+        Comunicados oficiais do Ministerio e Administração de Monte Mor.
       </p>
 
       <div className="announcements-filters">
