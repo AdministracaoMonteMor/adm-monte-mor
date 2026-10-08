@@ -57,11 +57,9 @@ Conselho de Anciães`,
 
 export const announcementCategories = [
   "Todos",
+  "Ministerio",
   "Administração",
   "Secretaria",
-  "Eventos",
-  "Avisos",
-  "Ministerio",
 ];
 
 export function getLatestAnnouncements(limit = 5) {
