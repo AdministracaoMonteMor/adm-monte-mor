@@ -58,6 +58,7 @@ Conselho de Anciães`,
 export const announcementCategories = [
   "Todos",
   "Ministerio",
+  "Piedade",
   "Administração",
   "Secretaria",
 ];
