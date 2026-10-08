@@ -53,6 +53,23 @@ Deus Abençoe.
 
 Conselho de Anciães`,
   },
+  {
+    id: "com-004",
+    title: "Trabalho Administrativos",
+    publishedAt: "2026-10-07",
+    category: "Administração",
+    summary: "Suspensão dos Trabalhos Administrativos.",
+    responsible: "Ministerio",
+    body: `A Paz de Deus,
+
+No dia 08/10/2026 ficará suspenso os trabalhos administrativos do predio anexo dividos a reuniões que acontecerá nesta semana.
+
+Retornnaremos na proxima quinta-feira dia 15/10/2026 com os trabalhos e atendimentos.
+
+Deus Abençoe.
+
+Administração`,
+  },
 ];
 
 export const announcementCategories = [
