@@ -50,6 +50,15 @@ export const events = [
     responsible: "Administração",
     description: "Fechamento Mensal de Coletas, Manutenção Preventiva e Voluntariados.",
   },
+  {
+    id: "evt-006",
+    title: "Reunião das Organistas",
+    date: "2026-10-18",
+    time: "09:30",
+    location: "Casa de Oração Jardim Paviotti",
+    responsible: "Ministerio",
+    description: "Reunião das Organistas junto ao Ministerio.",
+  },
 ];
 
 export function getUpcomingEvents(limit = 5) {

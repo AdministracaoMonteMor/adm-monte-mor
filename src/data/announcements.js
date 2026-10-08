@@ -8,7 +8,7 @@ export const announcements = [
     publishedAt: "2026-10-07",
     category: "Administração",
     summary:
-      "Confira as datas das próximas reuniões da Administração e dos setores no portal.",
+      "Trabalhos Administrativos e Atendimento a Irmandade e Ministerio.",
     responsible: "Secretaria",
     body: `A Paz de Deus,
 
@@ -26,7 +26,7 @@ Administração de Monte Mor`,
     publishedAt: "2026-10-07",
     category: "Secretaria",
     summary:
-      "Os comunicados oficiais passam a ser publicados prioritariamente neste portal.",
+      "Batimos na Cidade de Monte Mor.",
     responsible: "Secretaria",
     body: `A Paz de Deus,
 
@@ -41,7 +41,7 @@ Secretaria — Administração`,
     title: "Reunião das Organistas",
     publishedAt: "2026-10-07",
     category: "Avisos",
-    summary: "Lembrete da reunião mensal de Administração no Salão do Reino.",
+    summary: "Lembrete da reunião das Organistas.",
     responsible: "Ministerio",
     body: `A Paz de Deus,
 
