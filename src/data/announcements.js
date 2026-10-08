@@ -4,7 +4,7 @@
 export const announcements = [
   {
     id: "com-001",
-    title: "Calendário de reuniões — outubro e novembro",
+    title: "Trabalhos Administrativos",
     publishedAt: "2026-10-07",
     category: "Administração",
     summary:
@@ -12,72 +12,46 @@ export const announcements = [
     responsible: "Secretaria",
     body: `A Paz de Deus,
 
-Informamos que o calendário de reuniões de outubro e novembro está disponível na área "Calendário e Eventos" deste portal.
+Informamos ao ministerio e irmandade que todas as quinta-feira estamos das 19:30 as 21:00 Hrs no predio anexo para atender a todos.
 
-Pedimos que os responsáveis de cada setor confirmem presença com antecedência quando solicitado.
+Atendimentos de requisição de comprar levar assinado.
+
+Deus Abençoe.
 
 Administração de Monte Mor`,
   },
   {
     id: "com-002",
-    title: "Atualização de comunicados internos",
-    publishedAt: "2026-09-28",
+    title: "Batimos",
+    publishedAt: "2026-10-07",
     category: "Secretaria",
     summary:
       "Os comunicados oficiais passam a ser publicados prioritariamente neste portal.",
     responsible: "Secretaria",
-    body: `Prezados irmãos,
+    body: `A Paz de Deus,
 
-A Secretaria informa que os comunicados oficiais da Administração de Monte Mor serão centralizados neste portal, facilitando o acesso de todos os responsáveis.
+Todos batimos em nossa cidade são a cada 60 dias na central da cidade, caso de batismo adicional sera postado via secretaria.
 
-Em caso de dúvidas, procurem o setor de Secretaria.
+Deus Abençoe.
 
-Secretaria — Administração de Monte Mor`,
+Secretaria — Administração`,
   },
   {
     id: "com-003",
-    title: "Lembrete — reunião de Administração",
-    publishedAt: "2026-09-25",
+    title: "Reunião das Organistas",
+    publishedAt: "2026-10-07",
     category: "Avisos",
     summary: "Lembrete da reunião mensal de Administração no Salão do Reino.",
-    responsible: "Presidência",
-    body: `Irmãos,
+    responsible: "Ministerio",
+    body: `A Paz de Deus,
 
-Lembramos a todos os responsáveis pela reunião de Administração conforme data e horário publicados no calendário.
+Lembramos que no dia 18 de outubro as 09:30 tera uma reuniao com o ministerio e as organistas na casa de oração do jardim paviotti.
 
-Contamos com a presença de todos.
+Nesse dia não havera reunião de jovens e menores apenas no jardim paviotti as demais casas de orações seguir normalmente.
 
-Presidência — Administração de Monte Mor`,
-  },
-  {
-    id: "com-004",
-    title: "Organização dos setores",
-    publishedAt: "2026-09-20",
-    category: "Administração",
-    summary:
-      "Cadastro de responsáveis por setor em atualização na página Setores da Administração.",
-    responsible: "Administração",
-    body: `Irmãos,
+Deus Abençoe.
 
-Estamos organizando o cadastro de responsáveis de cada setor. Telefones e e-mails serão incluídos conforme forem confirmados pela Administração.
-
-Enquanto isso, consultem a página "Setores da Administração" para ver os irmãos já indicados.
-
-Administração de Monte Mor`,
-  },
-  {
-    id: "com-005",
-    title: "Eventos — confirmação de locais",
-    publishedAt: "2026-09-15",
-    category: "Eventos",
-    summary:
-      "Locais das reuniões confirmados no Salão do Reino, salvo aviso em contrário.",
-    responsible: "Secretaria",
-    body: `Informamos que, salvo comunicado específico, as reuniões administrativas ocorrem no Salão do Reino.
-
-Alterações serão publicadas nesta seção de comunicados.
-
-Secretaria`,
+Conselho de Anciães`,
   },
 ];
 
