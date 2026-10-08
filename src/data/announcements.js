@@ -9,7 +9,7 @@ export const announcements = [
     category: "Administração",
     summary:
       "Trabalhos Administrativos e Atendimento a Irmandade e Ministerio.",
-    responsible: "Secretaria",
+    responsible: "Administração",
     body: `A Paz de Deus,
 
 Informamos ao ministerio e irmandade que todas as quinta-feira estamos das 19:30 as 21:00 Hrs no predio anexo para atender a todos.
