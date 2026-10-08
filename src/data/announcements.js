@@ -5,12 +5,12 @@ export const announcements = [
   {
     id: "com-001",
     title: "Calendário de reuniões — outubro e novembro",
-    publishedAt: "2026-10-01",
+    publishedAt: "2026-10-07",
     category: "Administração",
     summary:
       "Confira as datas das próximas reuniões da Administração e dos setores no portal.",
     responsible: "Secretaria",
-    body: `Irmãos da Administração de Monte Mor,
+    body: `A Paz de Deus,
 
 Informamos que o calendário de reuniões de outubro e novembro está disponível na área "Calendário e Eventos" deste portal.
 
